@@ -1,0 +1,112 @@
+{
+ "bowl": {
+  "main": {
+   "modId": "_sys/root",
+   "fields": {
+    "main": [
+     {
+      "modId": "Bootstrap3:icons/glyphicon",
+      "fields": {
+       "css_class": "glyphicon-asterisk"
+      }
+     },
+     {
+      "modId": "Bootstrap3:icons/glyphicon",
+      "fields": {
+       "css_class": "glyphicon-plus"
+      }
+     },
+     {
+      "modId": "Bootstrap3:icons/glyphicon",
+      "fields": {
+       "css_class": "glyphicon-calendar"
+      }
+     },
+     {
+      "modId": "Bootstrap3:icons/glyphicon",
+      "fields": {
+       "css_class": "glyphicon-fullscreen"
+      }
+     },
+     {
+      "modId": "Bootstrap3:grid/col3",
+      "fields": {
+       "column1": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 3col です。"
+         }
+        }
+       ],
+       "column2": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 3col です。"
+         }
+        }
+       ],
+       "column3": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 3col です。"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "modId": "Bootstrap3:grid/col4",
+      "fields": {
+       "column1": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 4colです。"
+         }
+        }
+       ],
+       "column2": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 4colです。"
+         }
+        }
+       ],
+       "column3": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 4colです。"
+         }
+        }
+       ],
+       "column4": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 4colです。"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "modId": "Bootstrap3:grid/col6",
+      "fields": {
+       "column1": [],
+       "column2": [],
+       "column3": [],
+       "column4": [],
+       "column5": [],
+       "column6": []
+      }
+     }
+    ]
+   }
+  }
+ }
+}
