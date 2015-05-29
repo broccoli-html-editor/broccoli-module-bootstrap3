@@ -16,7 +16,7 @@ Bootstrap3 modules for [Pickles 2](http://pickles2.pxt.jp/).
     "repositories": [
         {
             "type": "git",
-            "url": "https://bitbucket.org/tomk79/px2-mod-bootstrap3.git"
+            "url": "https://github.com/tomk79/px2-mod-bootstrap3.git"
         }
     ],
     "require": {

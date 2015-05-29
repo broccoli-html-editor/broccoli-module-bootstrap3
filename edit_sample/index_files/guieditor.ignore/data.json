@@ -29,6 +29,27 @@
       }
      },
      {
+      "modId": "Bootstrap3:heading/heading2",
+      "fields": {
+       "heading": "3カラムのレイアウト",
+       "secondary": "脇っちょに書く小さい文言"
+      }
+     },
+     {
+      "modId": "Bootstrap3:heading/heading3",
+      "fields": {
+       "heading": "H3見出し",
+       "secondary": "脇っちょテキスト"
+      }
+     },
+     {
+      "modId": "Bootstrap3:heading/heading4",
+      "fields": {
+       "heading": "わきっちょテキストがないH4見出し",
+       "secondary": ""
+      }
+     },
+     {
       "modId": "Bootstrap3:grid/col3",
       "fields": {
        "column1": [
@@ -36,6 +57,27 @@
          "modId": "PlainHTMLElements:PlainHTML/Markdown",
          "fields": {
           "main": "## 3col です。"
+         }
+        },
+        {
+         "modId": "Bootstrap3:lists/ul_inline",
+         "fields": {
+          "loop": [
+           {
+            "modId": "Bootstrap3:lists/ul_inline",
+            "fields": {
+             "text": "list mark は出ないけど、一応リスト要素です。"
+            },
+            "subModName": "loop"
+           },
+           {
+            "modId": "Bootstrap3:lists/ul_inline",
+            "fields": {
+             "text": "2件のリスト要素です。"
+            },
+            "subModName": "loop"
+           }
+          ]
          }
         }
        ],
@@ -45,6 +87,29 @@
          "fields": {
           "main": "## 3col です。"
          }
+        },
+        {
+         "modId": "Bootstrap3:lists/dl",
+         "fields": {
+          "loop": [
+           {
+            "modId": "Bootstrap3:lists/dl",
+            "fields": {
+             "dt": "Description",
+             "dd": "ってなんだっけ。"
+            },
+            "subModName": "loop"
+           },
+           {
+            "modId": "Bootstrap3:lists/dl",
+            "fields": {
+             "dt": "デスクリプション",
+             "dd": "説明のことだよ。"
+            },
+            "subModName": "loop"
+           }
+          ]
+         }
         }
        ],
        "column3": [
@@ -53,6 +118,87 @@
          "fields": {
           "main": "## 3col です。"
          }
+        },
+        {
+         "modId": "Bootstrap3:lists/ol",
+         "fields": {
+          "loop": [
+           {
+            "modId": "Bootstrap3:lists/ol",
+            "fields": {
+             "text": "数字のリストです。"
+            },
+            "subModName": "loop"
+           },
+           {
+            "modId": "Bootstrap3:lists/ol",
+            "fields": {
+             "text": "数字リストですね。数字になりました。"
+            },
+            "subModName": "loop"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     },
+     {
+      "modId": "Bootstrap3:lists/dl_horizontal",
+      "fields": {
+       "loop": [
+        {
+         "modId": "Bootstrap3:lists/dl_horizontal",
+         "fields": {
+          "dt": "水平の説明です",
+          "dd": "ですです。"
+         },
+         "subModName": "loop"
+        },
+        {
+         "modId": "Bootstrap3:lists/dl_horizontal",
+         "fields": {
+          "dt": "dtは右寄せになるみたいです",
+          "dd": "DDはひだりよせ、ですかね。"
+         },
+         "subModName": "loop"
+        },
+        {
+         "modId": "Bootstrap3:lists/dl_horizontal",
+         "fields": {
+          "dt": "ここにはHTMLが書けます",
+          "dd": "HTMLエンティティは自分で変換しないといけません。"
+         },
+         "subModName": "loop"
+        },
+        {
+         "modId": "Bootstrap3:lists/dl_horizontal",
+         "fields": {
+          "dt": "DTは固定幅？",
+          "dd": "狭い場所には置けません。"
+         },
+         "subModName": "loop"
+        }
+       ]
+      }
+     },
+     {
+      "modId": "Bootstrap3:lists/ul_inline",
+      "fields": {
+       "loop": [
+        {
+         "modId": "Bootstrap3:lists/ul_inline",
+         "fields": {
+          "text": "<a href=\"http://pickles2.pxt.jp/\" target=\"_blank\">水平にならぶリスト</a>"
+         },
+         "subModName": "loop"
+        },
+        {
+         "modId": "Bootstrap3:lists/ul_inline",
+         "fields": {
+          "text": "インラインリストです"
+         },
+         "subModName": "loop"
         }
        ]
       }
@@ -97,12 +243,54 @@
      {
       "modId": "Bootstrap3:grid/col6",
       "fields": {
-       "column1": [],
-       "column2": [],
-       "column3": [],
-       "column4": [],
-       "column5": [],
-       "column6": []
+       "column1": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 6colです。"
+         }
+        }
+       ],
+       "column2": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 6colです。"
+         }
+        }
+       ],
+       "column3": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 6colです。"
+         }
+        }
+       ],
+       "column4": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 6colです。"
+         }
+        }
+       ],
+       "column5": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 6colです。"
+         }
+        }
+       ],
+       "column6": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 6colです。"
+         }
+        }
+       ]
       }
      }
     ]
