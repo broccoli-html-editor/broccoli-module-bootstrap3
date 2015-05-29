@@ -139,6 +139,14 @@
            }
           ]
          }
+        },
+        {
+         "modId": "Bootstrap3:buttons/button",
+         "fields": {
+          "tagname": "button",
+          "button-style": "primary",
+          "btn-label": "プライマリーボタンっ！"
+         }
         }
        ]
       }
@@ -212,6 +220,13 @@
          "fields": {
           "main": "## 4colです。"
          }
+        },
+        {
+         "modId": "Bootstrap3:blockquotes/blockquote",
+         "fields": {
+          "blockquote": "これは引用ブロック内の本文です。\n\n> これは引用が入れ子になってしまうので気をつけましょう。",
+          "footer": "Someone famous in <cite title=\"Source Title\">Source Title</cite>"
+         }
         }
        ],
        "column2": [
@@ -234,7 +249,7 @@
         {
          "modId": "PlainHTMLElements:PlainHTML/Markdown",
          "fields": {
-          "main": "## 4colです。"
+          "main": "## 4colです。\n\n> blockquotes\n> blockquotes"
          }
         }
        ]
