@@ -1,0 +1,26 @@
+{&{"input":{"type":"html_attr_text","name":"accordion_name","rows":1,"hidden":true}}&}
+<div class="panel-group" id="{&{"echo":{"ref":"accordion_name"}}&}" role="tablist" aria-multiselectable="true">
+{&{"loop":{"name":"carousel_loop"}}&}
+{&{"input":{"type":"html_attr_text","name":"collapse_name","rows":1,"hidden":true}}&}
+{&{"input":{"type":"html_attr_text","name":"heading_name","rows":1,"hidden":true}}&}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="{&{"echo":{"ref":"heading_name"}}&}">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#{&{"echo":{"ref":"accordion_name"}}&}" href="#{&{"echo":{"ref":"collapse_name"}}&}" aria-expanded="true" aria-controls="{&{"echo":{"ref":"collapse_name"}}&}">
+          {&{"input":{"type":"text","name":"title","rows":1}}&}
+        </a>
+      </h4>
+    </div>
+    <div id="{&{"echo":{"ref":"collapse_name"}}&}" class="panel-collapse collapse{&
+    {"input":{"type":"select", "name":"is-collapse-in", "options":[
+        {"value":"", "label":"default closed"},
+        {"value":" in", "label":"default opened"}
+    ]}}
+&}" role="tabpanel" aria-labelledby="{&{"echo":{"ref":"heading_name"}}&}">
+      <div class="panel-body">
+        {&{"module":{"name":"body"}}&}
+      </div>
+    </div>
+  </div>
+{&"endloop"&}
+</div><!-- / #{&{"echo":{"ref":"accordion_name"}}&} -->
