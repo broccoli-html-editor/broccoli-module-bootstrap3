@@ -50,6 +50,27 @@
       }
      },
      {
+      "modId": "Bootstrap3:grid/col2",
+      "fields": {
+       "column1": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 2col です。"
+         }
+        }
+       ],
+       "column2": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## 2col です。"
+         }
+        }
+       ]
+      }
+     },
+     {
       "modId": "Bootstrap3:grid/col3",
       "fields": {
        "column1": [
@@ -145,7 +166,12 @@
          "fields": {
           "tagname": "button",
           "button-style": "primary",
-          "btn-label": "プライマリーボタンっ！"
+          "btn-label": "プライマリーボタンっ！",
+          "btn-action": "",
+          "btn-type": "button",
+          "btn-style": "primary",
+          "btn-size": "",
+          "btn-block": ""
          }
         }
        ]
@@ -306,6 +332,12 @@
          }
         }
        ]
+      }
+     },
+     {
+      "modId": "PlainHTMLElements:PlainHTML/HTML",
+      "fields": {
+       "main": "<h2>ここは、直にHTMLを書き込むテスト</h2>\n<p>\n\tテスト文字列。<br />\n</p>\n\n"
       }
      }
     ]
