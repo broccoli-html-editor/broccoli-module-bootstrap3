@@ -5,6 +5,112 @@
    "fields": {
     "main": [
      {
+      "modId": "Bootstrap3:javascripts/carousel",
+      "fields": {
+       "carousel_id": "test_carousel_maki",
+       "carousel_loop": [
+        {
+         "modId": "Bootstrap3:javascripts/carousel",
+         "fields": {
+          "image_src": {
+           "resKey": "2d6aa46406066871f708b641f75236ff",
+           "path": "./index_files/resources/2d6aa46406066871f708b641f75236ff.jpg"
+          },
+          "image_alt": "子供の頃に愛用した百貨図鑑のおもちゃ特集ページ",
+          "caption": {
+           "src": "子供の頃に愛用した百貨図鑑のおもちゃ特集ページ。",
+           "editor": "markdown"
+          }
+         },
+         "subModName": "carousel_loop",
+         "dec": ""
+        },
+        {
+         "modId": "Bootstrap3:javascripts/carousel",
+         "fields": {
+          "image_src": {
+           "resKey": "3258158b28a91a4791cafd85b0d9e1ad",
+           "path": "./index_files/resources/3258158b28a91a4791cafd85b0d9e1ad.jpg"
+          },
+          "image_alt": "長年お世話になった YAMAHA の MTR 「MD8」",
+          "caption": {
+           "src": "長年お世話になった YAMAHA の MTR 「MD8」。いまは遠い北海道の地でオーディオミキサーとしてその余生を楽しんでいる。はず。",
+           "editor": "markdown"
+          }
+         },
+         "subModName": "carousel_loop",
+         "dec": ""
+        }
+       ]
+      },
+      "dec": ""
+     },
+     {
+      "modId": "Bootstrap3:javascripts/collapseAccordion",
+      "fields": {
+       "accordion_id": "accordion001",
+       "accordion_loop": [
+        {
+         "modId": "Bootstrap3:javascripts/collapseAccordion",
+         "fields": {
+          "collapse_name": "collapse_name_001",
+          "heading_name": "Heading",
+          "title": "タイトル",
+          "is-collapse-in": "",
+          "body": [
+           {
+            "modId": "PlainHTMLElements:PlainHTML/Markdown",
+            "fields": {
+             "main": "## アコーディオン内のコンテンツ\n\nテストコンテンツ。1。"
+            },
+            "dec": ""
+           },
+           {
+            "modId": "PlainHTMLElements:PlainHTML/Markdown",
+            "fields": {
+             "main": "## アコーディオン内のコンテンツ\n\nテストコンテンツ。2。"
+            },
+            "dec": ""
+           }
+          ],
+          "is_collapse_in": ""
+         },
+         "subModName": "accordion_loop",
+         "dec": ""
+        },
+        {
+         "modId": "Bootstrap3:javascripts/collapseAccordion",
+         "fields": {
+          "collapse_name": "collapse_002",
+          "heading_name": "Heading2",
+          "title": "2個目のタイトル",
+          "is-collapse-in": " in",
+          "body": [
+           {
+            "modId": "PlainHTMLElements:PlainHTML/Markdown",
+            "fields": {
+             "main": "## モジュール2の2\n\nネストされたアイテムです。"
+            },
+            "dec": ""
+           },
+           {
+            "modId": "PlainHTMLElements:PlainHTML/Markdown",
+            "fields": {
+             "main": "## 2つめのアコーディオン\n\nコンテンツです。"
+            },
+            "dec": ""
+           }
+          ],
+          "is_collapse_in": ""
+         },
+         "subModName": "accordion_loop",
+         "dec": ""
+        }
+       ]
+      },
+      "dec": ""
+     },
+     {
       "modId": "Bootstrap3:icons/glyphicon",
       "fields": {
        "css_class": "glyphicon-asterisk"
@@ -50,134 +156,6 @@
       }
      },
      {
-      "modId": "Bootstrap3:grid/col2",
-      "fields": {
-       "column1": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 2col です。"
-         }
-        }
-       ],
-       "column2": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 2col です。"
-         }
-        }
-       ]
-      }
-     },
-     {
-      "modId": "Bootstrap3:grid/col3",
-      "fields": {
-       "column1": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 3col です。"
-         }
-        },
-        {
-         "modId": "Bootstrap3:lists/ul_inline",
-         "fields": {
-          "loop": [
-           {
-            "modId": "Bootstrap3:lists/ul_inline",
-            "fields": {
-             "text": "list mark は出ないけど、一応リスト要素です。"
-            },
-            "subModName": "loop"
-           },
-           {
-            "modId": "Bootstrap3:lists/ul_inline",
-            "fields": {
-             "text": "2件のリスト要素です。"
-            },
-            "subModName": "loop"
-           }
-          ]
-         }
-        }
-       ],
-       "column2": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 3col です。"
-         }
-        },
-        {
-         "modId": "Bootstrap3:lists/dl",
-         "fields": {
-          "loop": [
-           {
-            "modId": "Bootstrap3:lists/dl",
-            "fields": {
-             "dt": "Description",
-             "dd": "ってなんだっけ。"
-            },
-            "subModName": "loop"
-           },
-           {
-            "modId": "Bootstrap3:lists/dl",
-            "fields": {
-             "dt": "デスクリプション",
-             "dd": "説明のことだよ。"
-            },
-            "subModName": "loop"
-           }
-          ]
-         }
-        }
-       ],
-       "column3": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 3col です。"
-         }
-        },
-        {
-         "modId": "Bootstrap3:lists/ol",
-         "fields": {
-          "loop": [
-           {
-            "modId": "Bootstrap3:lists/ol",
-            "fields": {
-             "text": "数字のリストです。"
-            },
-            "subModName": "loop"
-           },
-           {
-            "modId": "Bootstrap3:lists/ol",
-            "fields": {
-             "text": "数字リストですね。数字になりました。"
-            },
-            "subModName": "loop"
-           }
-          ]
-         }
-        },
-        {
-         "modId": "Bootstrap3:buttons/button",
-         "fields": {
-          "tagname": "button",
-          "button-style": "primary",
-          "btn-label": "プライマリーボタンっ！",
-          "btn-action": "",
-          "btn-type": "button",
-          "btn-style": "primary",
-          "btn-size": "",
-          "btn-block": ""
-         }
-        }
-       ]
-      }
-     },
-     {
       "modId": "Bootstrap3:lists/dl_horizontal",
       "fields": {
        "loop": [
@@ -217,127 +195,33 @@
       }
      },
      {
-      "modId": "Bootstrap3:lists/ul_inline",
-      "fields": {
-       "loop": [
-        {
-         "modId": "Bootstrap3:lists/ul_inline",
-         "fields": {
-          "text": "<a href=\"http://pickles2.pxt.jp/\" target=\"_blank\">水平にならぶリスト</a>"
-         },
-         "subModName": "loop"
-        },
-        {
-         "modId": "Bootstrap3:lists/ul_inline",
-         "fields": {
-          "text": "インラインリストです"
-         },
-         "subModName": "loop"
-        }
-       ]
-      }
-     },
-     {
-      "modId": "Bootstrap3:grid/col4",
+      "modId": "Bootstrap3:grid/col2",
       "fields": {
        "column1": [
         {
          "modId": "PlainHTMLElements:PlainHTML/Markdown",
          "fields": {
-          "main": "## 4colです。"
-         }
+          "main": "## markdown\n\n1."
+         },
+         "dec": ""
         },
         {
-         "modId": "Bootstrap3:blockquotes/blockquote",
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
          "fields": {
-          "blockquote": "これは引用ブロック内の本文です。\n\n> これは引用が入れ子になってしまうので気をつけましょう。",
-          "footer": "Someone famous in <cite title=\"Source Title\">Source Title</cite>"
-         }
+          "main": "## markdown 2.\n\n2."
+         },
+         "dec": ""
         }
        ],
        "column2": [
         {
          "modId": "PlainHTMLElements:PlainHTML/Markdown",
          "fields": {
-          "main": "## 4colです。"
-         }
-        }
-       ],
-       "column3": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 4colです。"
-         }
-        }
-       ],
-       "column4": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 4colです。\n\n> blockquotes\n> blockquotes"
-         }
+          "main": "## markdown.3\n\n3."
+         },
+         "dec": ""
         }
        ]
-      }
-     },
-     {
-      "modId": "Bootstrap3:grid/col6",
-      "fields": {
-       "column1": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 6colです。"
-         }
-        }
-       ],
-       "column2": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 6colです。"
-         }
-        }
-       ],
-       "column3": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 6colです。"
-         }
-        }
-       ],
-       "column4": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 6colです。"
-         }
-        }
-       ],
-       "column5": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 6colです。"
-         }
-        }
-       ],
-       "column6": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## 6colです。"
-         }
-        }
-       ]
-      }
-     },
-     {
-      "modId": "PlainHTMLElements:PlainHTML/HTML",
-      "fields": {
-       "main": "<h2>ここは、直にHTMLを書き込むテスト</h2>\n<p>\n\tテスト文字列。<br />\n</p>\n\n"
       }
      }
     ]
