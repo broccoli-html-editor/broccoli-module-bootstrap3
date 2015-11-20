@@ -13,14 +13,8 @@ Bootstrap3 modules for [Pickles 2](http://pickles2.pxt.jp/).
 
 ```
 {
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/tomk79/px2-mod-bootstrap3.git"
-        }
-    ],
     "require": {
-        "tomk79/px2-mod-bootstrap3": "dev-master"
+        "pickles2/px2-mod-bootstrap3": "dev-master"
     }
 }
 ```
@@ -43,7 +37,7 @@ return call_user_func( function(){
 
 	/* (中略) */
 
-	@$conf->plugins->px2dt->paths_module_template["Bootstrap3"] = "./vendor/tomk79/px2-mod-bootstrap3/modules/";
+	@$conf->plugins->px2dt->paths_module_template["Bootstrap3"] = "./vendor/pickles2/px2-mod-bootstrap3/modules/";
 
 	/* (中略) */
 
@@ -61,5 +55,3 @@ MIT License
 - (C)Tomoya Koyanagi <tomk79@gmail.com>
 - website: <http://www.pxt.jp/>
 - Twitter: @tomk79 <http://twitter.com/tomk79/>
-
-
