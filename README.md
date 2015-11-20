@@ -1,4 +1,4 @@
-tomk79/px2-mod-bootstrap3
+pickles2/px2-mod-bootstrap3
 =========
 
 Bootstrap3 modules for [Pickles 2](http://pickles2.pxt.jp/).
