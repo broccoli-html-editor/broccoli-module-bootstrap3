@@ -5,7 +5,7 @@ return call_user_func( function(){
 	$conf = new stdClass;
 
 	// project
-	$conf->name = 'px2-mod-bootstrap3'; // サイト名
+	$conf->name = 'broccoli-module-bootstrap3'; // サイト名
 	$conf->domain = null; // ドメイン
 	$conf->path_controot = '/'; // コンテンツルートディレクトリ
 
@@ -156,7 +156,7 @@ return call_user_func( function(){
 	// config for Pickles2 Desktop Tool.
 	$conf->plugins->px2dt = new stdClass;
 	$conf->plugins->px2dt->paths_module_template = [
-		"PlainHTMLElements" => "./vendor/tomk79/px2-mod-plain-html-elements/modules/",
+		"PlainHTMLElements" => "./vendor/tomk79/broccoli-module-plain-html-elements/modules/",
 		"Bootstrap3" => "./modules/"
 	];
 

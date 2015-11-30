@@ -1,7 +1,7 @@
-pickles2/px2-mod-bootstrap3
+pickles2/broccoli-module-bootstrap3
 =========
 
-Bootstrap3 modules for [Pickles 2](http://pickles2.pxt.jp/).
+Bootstrap3 modules for [Pickles 2](http://pickles2.pxt.jp/) and broccoli-html-editor.
 
 
 
@@ -14,7 +14,7 @@ Bootstrap3 modules for [Pickles 2](http://pickles2.pxt.jp/).
 ```
 {
     "require": {
-        "pickles2/px2-mod-bootstrap3": "dev-master"
+        "pickles2/broccoli-module-bootstrap3": "dev-master"
     }
 }
 ```
@@ -37,7 +37,7 @@ return call_user_func( function(){
 
 	/* (中略) */
 
-	@$conf->plugins->px2dt->paths_module_template["Bootstrap3"] = "./vendor/pickles2/px2-mod-bootstrap3/modules/";
+	@$conf->plugins->px2dt->paths_module_template["Bootstrap3"] = "./vendor/pickles2/broccoli-module-bootstrap3/modules/";
 
 	/* (中略) */
 
